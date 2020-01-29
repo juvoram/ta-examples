@@ -1,9 +1,8 @@
 #Rami Juvonen 2019
 
-Documentation    To run DEMO:
-    ...              robot --name Anime-Planet ap*.robot
-
 *** Settings ***
+Documentation    To run DEMO:
+...              robot --name Anime-Planet ap*.robot
 Resource                resource.robot
 Suite Setup             Browser Setup
 Suite Teardown          Close Browser
